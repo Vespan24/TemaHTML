@@ -12,3 +12,8 @@ position: relative;
 top: 100px;
 z-index: 600;
 max-height:177px;
+}
+
+    .bg-image:hover{
+        background: url("pexels-7.jpg");
+    }
