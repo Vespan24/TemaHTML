@@ -6,3 +6,9 @@
 .carousel-inner > .carousel-item > img {
   height:360px;
 }
+
+.carousel-caption {
+position: relative;
+top: 100px;
+z-index: 600;
+max-height:177px;
