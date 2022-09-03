@@ -51,37 +51,41 @@
                   <div class="col">
                      Depart
                   </div>
+                  <div class="col">
+                  </div>
                </div>
                <div class="row">
                   <div class="col">
-                     <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                        Choose country
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                           <li><a class="dropdown-item" href="#">Spain</a></li>
-                           <li><a class="dropdown-item" href="#">France</a></li>
-                           <li><a class="dropdown-item" href="#">Romania</a></li>
-                           <li><a class="dropdown-item" href="#">Hungary</a></li>
-                           <li><a class="dropdown-item" href="#">Bulgary</a></li>
-                        </ul>
+                     <div class="input-group mb-3">
+                        <select class="form-select" id="inputGroupSelect01">
+                           <option selected>Choose country</option>
+                           <option value="1">Spain</option>
+                           <option value="2">France</option>
+                           <option value="3">Romania</option>
+                           <option value="2">Hungary</option>
+                           <option value="3">Bulgary</option>
+                        </select>
                      </div>
                   </div>
                   <div class="col">
-                     <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                        Choose destination
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                           <li><a class="dropdown-item" href="#">Spain</a></li>
-                           <li><a class="dropdown-item" href="#">France</a></li>
-                           <li><a class="dropdown-item" href="#">Romania</a></li>
-                           <li><a class="dropdown-item" href="#">Hungary</a></li>
-                           <li><a class="dropdown-item" href="#">Bulgary</a></li>
-                        </ul>
+                     <div class="input-group mb-3">
+                        <select class="form-select" id="inputGroupSelect01">
+                           <option selected>Choose destionation</option>
+                           <option value="1">Spain</option>
+                           <option value="2">France</option>
+                           <option value="3">Romania</option>
+                           <option value="2">Hungary</option>
+                           <option value="3">Bulgary</option>
+                        </select>
                      </div>
                   </div>
                   <div class="col">
+                     <input type="date" id="start" name="trip-start"
+                        value=""
+                        min="2022-01-01" max="2022-12-31">
+                  </div>
+                  <div class="col">
+                     <button type="button" class="btn btn-primary">Search</button>
                   </div>
                </div>
             </div>
@@ -181,9 +185,7 @@
                   </div>
                </div>
                <div class="row">
-               <div class"col-4">
-               </div>
-                  <div class="col-4">
+                  <div class="col-auto">
                      <nav aria-label="Page navigation example">
                         <ul class="pagination">
                            <li class="page-item">
@@ -194,6 +196,8 @@
                            <li class="page-item"><a class="page-link" href="#">1</a></li>
                            <li class="page-item"><a class="page-link" href="#">2</a></li>
                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                           <li class="page-item"><a class="page-link" href="#">4</a></li>
+                           <li class="page-item"><a class="page-link" href="#">5</a></li>
                            <li class="page-item">
                               <a class="page-link" href="#" aria-label="Next">
                               <span aria-hidden="true">&raquo;</span>
