@@ -47,6 +47,7 @@ label {
   padding: 20px;
   width: 200px;
   text-align: center;
+  animation-name: example;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   text-decoration: none;
@@ -63,7 +64,8 @@ label {
   padding-left: 350%;
   margin-left: -20px;
   margin-top: -120%;
-  opacity: 0;
+  opacity: 0; 
+
   transition: all 0.8s
 }
 
@@ -71,6 +73,19 @@ label {
   padding: 0;
   margin: 0;
   opacity: 1;
+
   transition: 0s
 }
+miv {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  animation-name: example;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
 
+@keyframes example {
+    0%{opacity: 1.0}
+  100%{opacity: 0.0}
+}
